@@ -25,3 +25,31 @@ python -m pytest -v --driver Chrome --driver-path C:\chromedriver.exe tests
 
 python -m pytest -v --driver Chrome --driver-path C:\chromedriver.exe tests\test_reg_page_check.py -k "test_reg_page_check_all_fields_text"
 
+ENG
+
+# Graduation Project: A Real-World Case Study at Rostelecom Information Technologies
+33.1. Final Project on Test Automation (PJ-04):
+
+Completed by: Masnur Alimbekov QAP-193
+
+Link to the checklist, test cases, and bug reports: https://disk.yandex.ru/i/FDiqY_aI9XK6Vg
+
+During the project, manual testing was used to check the interface usability, system operation, and website responsiveness on mobile devices. Some test cases that could have been automated were performed manually, as manual testing allowed us to understand the system's logic, which was not clearly reflected in the client's brief. Automated testing was also used using Selenium WebDriver and the pytest library. This was used to test some of the authorization and registration scenarios, which are easily automated. Furthermore, automated testing reduced the time and cost of manually re-executing the same test cases and increased the flexibility of testing when making changes to the system. Regarding the application of test design techniques, the following were employed:
+
+1. Equivalence Class Technique
+
+This technique was used to identify sets of test input data that should result in identical system behavior. For example, TC-RT-001, TC-RT-002, TC-RT-003, and TC-RT-004 test authorization with different valid input data that should result in successful authorization.
+
+2. Boundary Value Analysis Technique
+
+This technique was used to test the boundary values ​​of input data. For example, TC-RT-020, TC-RT-021, and TC-RT-022 test password recovery with incorrect passwords that do not meet the length, capitalization, and Latin character requirements.
+
+Automated tests are named to reflect the expected result and the object being tested.
+
+Command to run all tests in a suite "tests":
+
+python -m pytest -v --driver Chrome --driver-path C:\chromedriver.exe tests
+
+Command to run a single test, for example in a file test_reg_page_check.py:
+
+python -m pytest -v --driver Chrome --driver-path C:\chromedriver.exe tests\test_reg_page_check.py -k "test_reg_page_check_all_fields_text"
