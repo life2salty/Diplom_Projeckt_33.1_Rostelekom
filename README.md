@@ -1,7 +1,7 @@
 ﻿# Дипломный проект: реальный кейс компании «Ростелеком Информационные Технологии»
 33.1. Итоговый проект по автоматизации тестирования (PJ-04):
 
-Выполнил: Алимбеков Маснур QAP-193
+Выполнил: Алимбеков Манcур QAP-193
 
 Ссылка на чек-лист, тест-кейсы и баг репорты: https://disk.yandex.ru/i/FDiqY_aI9XK6Vg  
 
@@ -30,7 +30,7 @@ ENG
 # Graduation Project: A Real-World Case Study at Rostelecom Information Technologies
 33.1. Final Project on Test Automation (PJ-04):
 
-Completed by: Masnur Alimbekov QAP-193
+Completed by: Mansur Alimbekov QAP-193
 
 Link to the checklist, test cases, and bug reports: https://disk.yandex.ru/i/FDiqY_aI9XK6Vg
 
@@ -53,3 +53,4 @@ python -m pytest -v --driver Chrome --driver-path C:\chromedriver.exe tests
 Command to run a single test, for example in a file test_reg_page_check.py:
 
 python -m pytest -v --driver Chrome --driver-path C:\chromedriver.exe tests\test_reg_page_check.py -k "test_reg_page_check_all_fields_text"
+
